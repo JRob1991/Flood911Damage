@@ -3256,6 +3256,87 @@ a.thumbnail.active {
 .caption-ar .caption-content .caption-title + p {
   margin-top: 5px;
 }
+
+/* ---------------------------------------------------- */
+/* BANNER */
+/* ---------------------------------------------------- */
+
+.banner-top {
+  background: url('http://i.imgur.com/cVGU6AE.png') repeat center center fixed;
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-bottom {
+  background: url('http://i.imgur.com/cVGU6AE.png') repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p.copyright {
+  text-align: center;
+  color: #FFF;
+  margin-top: 30px;
+}
+
+.banner {
+  content: url('http://i.imgur.com/8t6yJvD.png');
+}
+
+.wdl, .wdl-number, .emergency-response {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.constellation {
+  content: url('http://www.clipartbest.com/cliparts/aiq/o5R/aiqo5RMeT.svg');
+  width: 9.5em;
+  display: inline;
+}
+
+.wdl-number {
+  text-transform: uppercase;
+  margin: 0 0 -0.2em -1.7em;
+  font-size: 1.9em;
+  letter-spacing: -1px;
+  color: #b0efb5;
+  position: relative;
+  background: -webkit-linear-gradient(45deg, #ea9797, white, #f9fdd3, #b0efb5, #93faf7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emergency-response {
+  font-weight: 400;
+  margin-left: .4em;
+  margin-bottom: -0.6em;
+  line-height: 1.8;
+  font-size: 1.25em;
+  color: white;
+  letter-spacing: -0.3px;
+}
+.wdl {
+  display: inline;
+  color: white;
+  font-family: 'Satisfy';
+  font-size: 1.3em;
+  margin-left: -0.5em;
+  font-weight: 200;
+}
+
+
 /* ---------------------------------------------------- */
 /* Navbar */
 /* ---------------------------------------------------- */

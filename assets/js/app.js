@@ -24,7 +24,7 @@ $(document).on('click','a.smooth', function(e){
         });
     });
 
-})(jQuery);
+}) (jQuery);
 
 // GOOGLE MAPS
 
